@@ -11,8 +11,20 @@ import CoreLocation
 
 class User: NSObject {
     
-    let name : String = "";
-    let userId : String = "";
-    let avatarStringURL : String = "";
+    let userId : String
+    let email : String
+    let password : String
+    
+    override init() {
+        self.userId = ""
+        self.email = ""
+        self.password = ""
+    }
+
+    init(userId : String, email : String, password : String) {
+        self.userId = userId
+        self.email = email
+        self.password = password
+    }
     
 }
