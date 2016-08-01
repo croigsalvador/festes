@@ -18,6 +18,10 @@ class SignInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if self.newtworkProvider.currentUser() != nil {
+            self.newtworkProvider.updateLoggedUserLocation()
+            self.presentViewController(MapViewController(), animated: true, completion: nil)
+        }
         
     }
     
@@ -27,7 +31,7 @@ class SignInViewController: UIViewController {
         if let email = self.emailTextField.text, password = self.passwordTextField.text {
             newtworkProvider.createUserWithEmailAndPassword(email, password: password, completion: { (user, error) in
                 if user != nil {
-                    self.navigationController?.pushViewController(MapViewController(), animated: true)
+                    self.presentViewController(MapViewController(), animated: true, completion: nil)
                 }
             })
         }

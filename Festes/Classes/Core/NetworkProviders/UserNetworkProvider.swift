@@ -12,6 +12,9 @@ import FirebaseAuth
 
 
 class UserNetworkProvider: NSObject {
+    
+    let fireBaseReference : FIRDatabaseReference = FIRDatabase.database().reference()
+    
     func createUserWithEmailAndPassword(email : String, password : String ,  completion: (user : User?, error : NSError?) -> Void) {
         FIRAuth.auth()?.createUserWithEmail(email, password: password) { (user, error) in
                 if let error = error {
@@ -36,6 +39,25 @@ class UserNetworkProvider: NSObject {
             completion(user: myUser, error: nil)
         }
     }
+    
+    func currentUser() -> User? {
+        let firUser = FIRAuth.auth()?.currentUser;
+        return User(userId: firUser!.uid, email : firUser!.email!, password : "" )
+    }
+    
+    func logOut() {
+       try! FIRAuth.auth()?.signOut()
 
+    }
+    func findAllUsers () {
+        
+    }
+    
+    func updateLoggedUserLocation() {
+        let firUser = FIRAuth.auth()?.currentUser;
+        self.fireBaseReference.child("users").child(firUser!.uid).setValue(["username": "yo"]) { (error, databaseReference) in
+            print(databaseReference)
+        }
+    }
     
 }

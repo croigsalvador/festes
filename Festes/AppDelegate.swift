@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FIRApp.configure()
         
-        self.window?.rootViewController = UINavigationController(rootViewController: SignInViewController())
+        self.window?.rootViewController = SignInViewController()
         self.window?.makeKeyAndVisible()
         
         return true
