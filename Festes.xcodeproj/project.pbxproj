@@ -97,6 +97,7 @@
 		0F836CDB1D4F9C72007AC1C2 /* Festes */ = {
 			isa = PBXGroup;
 			children = (
+				0F836D0A1D4F9EE4007AC1C2 /* Classes */,
 				0F836CDC1D4F9C72007AC1C2 /* AppDelegate.swift */,
 				0F836CDE1D4F9C72007AC1C2 /* ViewController.swift */,
 				0F836CE01D4F9C72007AC1C2 /* Main.storyboard */,
@@ -123,6 +124,69 @@
 				0F836CFE1D4F9C72007AC1C2 /* Info.plist */,
 			);
 			path = FestesUITests;
+			sourceTree = "<group>";
+		};
+		0F836D0A1D4F9EE4007AC1C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F836D0B1D4F9EE4007AC1C2 /* Core */,
+				0F836D111D4F9EE4007AC1C2 /* Navigation */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0F836D0B1D4F9EE4007AC1C2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0F836D0C1D4F9EE4007AC1C2 /* NetworkProviders */,
+				0F836D0D1D4F9EE4007AC1C2 /* Persistor */,
+				0F836D0E1D4F9EE4007AC1C2 /* Ponsos */,
+				0F836D0F1D4F9EE4007AC1C2 /* Repositories */,
+				0F836D101D4F9EE4007AC1C2 /* UseCases */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0F836D0C1D4F9EE4007AC1C2 /* NetworkProviders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkProviders;
+			sourceTree = "<group>";
+		};
+		0F836D0D1D4F9EE4007AC1C2 /* Persistor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistor;
+			sourceTree = "<group>";
+		};
+		0F836D0E1D4F9EE4007AC1C2 /* Ponsos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ponsos;
+			sourceTree = "<group>";
+		};
+		0F836D0F1D4F9EE4007AC1C2 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0F836D101D4F9EE4007AC1C2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		0F836D111D4F9EE4007AC1C2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
