@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0F836CDD1D4F9C72007AC1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836CDC1D4F9C72007AC1C2 /* AppDelegate.swift */; };
-		0F836CDF1D4F9C72007AC1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836CDE1D4F9C72007AC1C2 /* ViewController.swift */; };
 		0F836CE21D4F9C72007AC1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F836CE01D4F9C72007AC1C2 /* Main.storyboard */; };
 		0F836CE41D4F9C72007AC1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F836CE31D4F9C72007AC1C2 /* Assets.xcassets */; };
 		0F836CE71D4F9C72007AC1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F836CE51D4F9C72007AC1C2 /* LaunchScreen.storyboard */; };
 		0F836CF21D4F9C72007AC1C2 /* FestesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836CF11D4F9C72007AC1C2 /* FestesTests.swift */; };
 		0F836CFD1D4F9C72007AC1C2 /* FestesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836CFC1D4F9C72007AC1C2 /* FestesUITests.swift */; };
+		0F836D1A1D4FCB9B007AC1C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836D181D4FCB9B007AC1C2 /* MapViewController.swift */; };
+		0F836D1B1D4FCB9B007AC1C2 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F836D191D4FCB9B007AC1C2 /* MapViewController.xib */; };
+		0F836D1D1D4FCBE8007AC1C2 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836D1C1D4FCBE8007AC1C2 /* UserRepository.swift */; };
+		0F836D1F1D4FCC07007AC1C2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836D1E1D4FCC07007AC1C2 /* User.swift */; };
+		0F836D211D4FCD91007AC1C2 /* UserNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836D201D4FCD91007AC1C2 /* UserNetworkProvider.swift */; };
+		18B840419BF469499084FF10 /* Pods_FestesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BB6A80561A6A0EDB98BD75 /* Pods_FestesUITests.framework */; };
+		AC29ED309F4234BD550C7AFA /* Pods_FestesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BAEEFD165D5A028C58C18A /* Pods_FestesTests.framework */; };
+		BFFFA5541D64E455CDCE09DD /* Pods_Festes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E0A42FDA2F0B234EB5BEF7 /* Pods_Festes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF64E86DAE9A30D321E876F /* Pods-FestesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FestesTests/Pods-FestesTests.release.xcconfig"; sourceTree = "<group>"; };
 		0F836CD91D4F9C72007AC1C2 /* Festes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Festes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F836CDC1D4F9C72007AC1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F836CDE1D4F9C72007AC1C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F836CE11D4F9C72007AC1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F836CE31D4F9C72007AC1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F836CE61D4F9C72007AC1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,19 @@
 		0F836CF81D4F9C72007AC1C2 /* FestesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F836CFC1D4F9C72007AC1C2 /* FestesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestesUITests.swift; sourceTree = "<group>"; };
 		0F836CFE1D4F9C72007AC1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F836D181D4FCB9B007AC1C2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0F836D191D4FCB9B007AC1C2 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		0F836D1C1D4FCBE8007AC1C2 /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		0F836D1E1D4FCC07007AC1C2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0F836D201D4FCD91007AC1C2 /* UserNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNetworkProvider.swift; sourceTree = "<group>"; };
+		192E4D2295068F9A3296CC4F /* Pods-FestesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FestesUITests/Pods-FestesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19BAEEFD165D5A028C58C18A /* Pods_FestesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FestesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33200977451092E310A5F0C7 /* Pods-Festes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Festes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Festes/Pods-Festes.debug.xcconfig"; sourceTree = "<group>"; };
+		7868D4F8E8B2F430168C678D /* Pods-FestesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FestesUITests/Pods-FestesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91E0A42FDA2F0B234EB5BEF7 /* Pods_Festes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Festes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BB6A80561A6A0EDB98BD75 /* Pods_FestesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FestesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE985ABF6A52F3049499370D /* Pods-Festes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Festes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Festes/Pods-Festes.release.xcconfig"; sourceTree = "<group>"; };
+		EEA75B381C53344F6361EEB9 /* Pods-FestesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FestesTests/Pods-FestesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFFA5541D64E455CDCE09DD /* Pods_Festes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC29ED309F4234BD550C7AFA /* Pods_FestesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B840419BF469499084FF10 /* Pods_FestesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				0F836CF01D4F9C72007AC1C2 /* FestesTests */,
 				0F836CFB1D4F9C72007AC1C2 /* FestesUITests */,
 				0F836CDA1D4F9C72007AC1C2 /* Products */,
+				353167FC155F59C76E59E694 /* Pods */,
+				5CAA2BF72856174DCCE1E7C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,12 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				0F836D0A1D4F9EE4007AC1C2 /* Classes */,
-				0F836CDC1D4F9C72007AC1C2 /* AppDelegate.swift */,
-				0F836CDE1D4F9C72007AC1C2 /* ViewController.swift */,
-				0F836CE01D4F9C72007AC1C2 /* Main.storyboard */,
-				0F836CE31D4F9C72007AC1C2 /* Assets.xcassets */,
-				0F836CE51D4F9C72007AC1C2 /* LaunchScreen.storyboard */,
-				0F836CE81D4F9C72007AC1C2 /* Info.plist */,
+				0F836D121D4FC8FF007AC1C2 /* SupportingFiles */,
 			);
 			path = Festes;
 			sourceTree = "<group>";
@@ -129,6 +149,7 @@
 		0F836D0A1D4F9EE4007AC1C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0F836D131D4FC94F007AC1C2 /* Sections */,
 				0F836D0B1D4F9EE4007AC1C2 /* Core */,
 				0F836D111D4F9EE4007AC1C2 /* Navigation */,
 			);
@@ -150,6 +171,7 @@
 		0F836D0C1D4F9EE4007AC1C2 /* NetworkProviders */ = {
 			isa = PBXGroup;
 			children = (
+				0F836D201D4FCD91007AC1C2 /* UserNetworkProvider.swift */,
 			);
 			path = NetworkProviders;
 			sourceTree = "<group>";
@@ -164,6 +186,7 @@
 		0F836D0E1D4F9EE4007AC1C2 /* Ponsos */ = {
 			isa = PBXGroup;
 			children = (
+				0F836D1E1D4FCC07007AC1C2 /* User.swift */,
 			);
 			path = Ponsos;
 			sourceTree = "<group>";
@@ -171,6 +194,7 @@
 		0F836D0F1D4F9EE4007AC1C2 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				0F836D1C1D4FCBE8007AC1C2 /* UserRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -189,6 +213,82 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		0F836D121D4FC8FF007AC1C2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0F836CDC1D4F9C72007AC1C2 /* AppDelegate.swift */,
+				0F836CE01D4F9C72007AC1C2 /* Main.storyboard */,
+				0F836CE31D4F9C72007AC1C2 /* Assets.xcassets */,
+				0F836CE51D4F9C72007AC1C2 /* LaunchScreen.storyboard */,
+				0F836CE81D4F9C72007AC1C2 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0F836D131D4FC94F007AC1C2 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				0F836D141D4FC94F007AC1C2 /* Map */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		0F836D141D4FC94F007AC1C2 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0F836D161D4FC98F007AC1C2 /* Router */,
+				0F836D151D4FC98F007AC1C2 /* Presenter */,
+				0F836D171D4FC98F007AC1C2 /* View */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		0F836D151D4FC98F007AC1C2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0F836D161D4FC98F007AC1C2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0F836D171D4FC98F007AC1C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F836D181D4FCB9B007AC1C2 /* MapViewController.swift */,
+				0F836D191D4FCB9B007AC1C2 /* MapViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		353167FC155F59C76E59E694 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33200977451092E310A5F0C7 /* Pods-Festes.debug.xcconfig */,
+				DE985ABF6A52F3049499370D /* Pods-Festes.release.xcconfig */,
+				EEA75B381C53344F6361EEB9 /* Pods-FestesTests.debug.xcconfig */,
+				0AF64E86DAE9A30D321E876F /* Pods-FestesTests.release.xcconfig */,
+				192E4D2295068F9A3296CC4F /* Pods-FestesUITests.debug.xcconfig */,
+				7868D4F8E8B2F430168C678D /* Pods-FestesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CAA2BF72856174DCCE1E7C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91E0A42FDA2F0B234EB5BEF7 /* Pods_Festes.framework */,
+				19BAEEFD165D5A028C58C18A /* Pods_FestesTests.framework */,
+				A7BB6A80561A6A0EDB98BD75 /* Pods_FestesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F836D011D4F9C72007AC1C2 /* Build configuration list for PBXNativeTarget "Festes" */;
 			buildPhases = (
+				A53E7D06C2FE6C4803C1FBCC /* [CP] Check Pods Manifest.lock */,
 				0F836CD51D4F9C72007AC1C2 /* Sources */,
 				0F836CD61D4F9C72007AC1C2 /* Frameworks */,
 				0F836CD71D4F9C72007AC1C2 /* Resources */,
+				13160C2B81BDE779375B239E /* [CP] Embed Pods Frameworks */,
+				01F30CC05DDE2F92DCDD08A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F836D041D4F9C72007AC1C2 /* Build configuration list for PBXNativeTarget "FestesTests" */;
 			buildPhases = (
+				4CEEC885B74FDD49528ED793 /* [CP] Check Pods Manifest.lock */,
 				0F836CE91D4F9C72007AC1C2 /* Sources */,
 				0F836CEA1D4F9C72007AC1C2 /* Frameworks */,
 				0F836CEB1D4F9C72007AC1C2 /* Resources */,
+				A5D7364B508A7D6FE452471C /* [CP] Embed Pods Frameworks */,
+				86498A4DDBC20FE3F1610EB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F836D071D4F9C72007AC1C2 /* Build configuration list for PBXNativeTarget "FestesUITests" */;
 			buildPhases = (
+				B6B939BE6AACB881659F9BAA /* [CP] Check Pods Manifest.lock */,
 				0F836CF41D4F9C72007AC1C2 /* Sources */,
 				0F836CF51D4F9C72007AC1C2 /* Frameworks */,
 				0F836CF61D4F9C72007AC1C2 /* Resources */,
+				E3F12BD8ADD1372383B18F73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +404,7 @@
 				0F836CE71D4F9C72007AC1C2 /* LaunchScreen.storyboard in Resources */,
 				0F836CE41D4F9C72007AC1C2 /* Assets.xcassets in Resources */,
 				0F836CE21D4F9C72007AC1C2 /* Main.storyboard in Resources */,
+				0F836D1B1D4FCB9B007AC1C2 /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,13 +424,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01F30CC05DDE2F92DCDD08A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Festes/Pods-Festes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13160C2B81BDE779375B239E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Festes/Pods-Festes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CEEC885B74FDD49528ED793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86498A4DDBC20FE3F1610EB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestesTests/Pods-FestesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53E7D06C2FE6C4803C1FBCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D7364B508A7D6FE452471C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestesTests/Pods-FestesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B939BE6AACB881659F9BAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F12BD8ADD1372383B18F73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestesUITests/Pods-FestesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F836CD51D4F9C72007AC1C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F836CDF1D4F9C72007AC1C2 /* ViewController.swift in Sources */,
+				0F836D1F1D4FCC07007AC1C2 /* User.swift in Sources */,
 				0F836CDD1D4F9C72007AC1C2 /* AppDelegate.swift in Sources */,
+				0F836D1A1D4FCB9B007AC1C2 /* MapViewController.swift in Sources */,
+				0F836D1D1D4FCBE8007AC1C2 /* UserRepository.swift in Sources */,
+				0F836D211D4FCD91007AC1C2 /* UserNetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +696,7 @@
 		};
 		0F836D021D4F9C72007AC1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33200977451092E310A5F0C7 /* Pods-Festes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Festes/Info.plist;
@@ -472,6 +708,7 @@
 		};
 		0F836D031D4F9C72007AC1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE985ABF6A52F3049499370D /* Pods-Festes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Festes/Info.plist;
@@ -483,6 +720,7 @@
 		};
 		0F836D051D4F9C72007AC1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA75B381C53344F6361EEB9 /* Pods-FestesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FestesTests/Info.plist;
@@ -495,6 +733,7 @@
 		};
 		0F836D061D4F9C72007AC1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF64E86DAE9A30D321E876F /* Pods-FestesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FestesTests/Info.plist;
@@ -507,6 +746,7 @@
 		};
 		0F836D081D4F9C72007AC1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192E4D2295068F9A3296CC4F /* Pods-FestesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FestesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -518,6 +758,7 @@
 		};
 		0F836D091D4F9C72007AC1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7868D4F8E8B2F430168C678D /* Pods-FestesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FestesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -546,6 +787,7 @@
 				0F836D031D4F9C72007AC1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F836D041D4F9C72007AC1C2 /* Build configuration list for PBXNativeTarget "FestesTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +796,7 @@
 				0F836D061D4F9C72007AC1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F836D071D4F9C72007AC1C2 /* Build configuration list for PBXNativeTarget "FestesUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +805,7 @@
 				0F836D091D4F9C72007AC1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
