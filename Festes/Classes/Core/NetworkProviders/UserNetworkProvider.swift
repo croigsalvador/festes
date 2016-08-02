@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
-
+import CoreLocation
 
 class UserNetworkProvider: NSObject {
     
@@ -53,9 +53,9 @@ class UserNetworkProvider: NSObject {
         
     }
     
-    func updateLoggedUserLocation() {
+    func updateLoggedUserLocation(location : CLLocation) {
         let firUser = FIRAuth.auth()?.currentUser;
-        self.fireBaseReference.child("users").child(firUser!.uid).setValue(["username": "yo"]) { (error, databaseReference) in
+        self.fireBaseReference.child("users").child(firUser!.uid).setValue(["latitude": location.coordinate.latitude, "longitude" : location.coordinate.longitude]) { (error, databaseReference) in
             print(databaseReference)
         }
     }

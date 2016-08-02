@@ -47,6 +47,9 @@ PODS:
     - Fabric
   - TwitterKit (2.3.0):
     - TwitterCore (= 2.3.0)
+  - Typhoon (3.5.1):
+    - Typhoon/no-arc (= 3.5.1)
+  - Typhoon/no-arc (3.5.1)
 
 DEPENDENCIES:
   - FBSDKLoginKit
@@ -54,6 +57,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - TwitterKit
+  - Typhoon
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
@@ -72,7 +76,8 @@ SPEC CHECKSUMS:
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   TwitterCore: 817eae3e291fa4125b47789e26a4f6f024115c1f
   TwitterKit: 8a383da8d9c21b0423716381ea8bbfce20622d91
+  Typhoon: c0950bb9f2e835eb8a7dc6983160109b6baf2dda
 
-PODFILE CHECKSUM: 4aa8af49ee4e0ee361bb6a1e994e4058cb3ad646
+PODFILE CHECKSUM: 38d17daaec8d9d5fba5a929a20b76568a1ec9256
 
 COCOAPODS: 1.0.1

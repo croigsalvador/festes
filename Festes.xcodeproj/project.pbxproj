@@ -10,6 +10,7 @@
 		0F1BD9311D4FD0C1009C6D5C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BD92F1D4FD0C1009C6D5C /* SignInViewController.swift */; };
 		0F1BD9321D4FD0C1009C6D5C /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F1BD9301D4FD0C1009C6D5C /* SignInViewController.xib */; };
 		0F1BD9341D4FFE0A009C6D5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F1BD9331D4FFE0A009C6D5C /* GoogleService-Info.plist */; };
+		0F1BD9361D514851009C6D5C /* GetCurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BD9351D514851009C6D5C /* GetCurrentLocation.swift */; };
 		0F836CDD1D4F9C72007AC1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F836CDC1D4F9C72007AC1C2 /* AppDelegate.swift */; };
 		0F836CE21D4F9C72007AC1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F836CE01D4F9C72007AC1C2 /* Main.storyboard */; };
 		0F836CE41D4F9C72007AC1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F836CE31D4F9C72007AC1C2 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		0F1BD92F1D4FD0C1009C6D5C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0F1BD9301D4FD0C1009C6D5C /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		0F1BD9331D4FFE0A009C6D5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F1BD9351D514851009C6D5C /* GetCurrentLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCurrentLocation.swift; sourceTree = "<group>"; };
 		0F836CD91D4F9C72007AC1C2 /* Festes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Festes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F836CDC1D4F9C72007AC1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F836CE11D4F9C72007AC1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		0F836D101D4F9EE4007AC1C2 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				0F1BD9351D514851009C6D5C /* GetCurrentLocation.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -592,6 +595,7 @@
 				0F1BD9311D4FD0C1009C6D5C /* SignInViewController.swift in Sources */,
 				0F836D1A1D4FCB9B007AC1C2 /* MapViewController.swift in Sources */,
 				0F836D1D1D4FCBE8007AC1C2 /* UserRepository.swift in Sources */,
+				0F1BD9361D514851009C6D5C /* GetCurrentLocation.swift in Sources */,
 				0F836D211D4FCD91007AC1C2 /* UserNetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

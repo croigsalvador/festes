@@ -20,8 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FIRApp.configure()
         
-        self.window?.rootViewController = SignInViewController()
-        self.window?.makeKeyAndVisible()
+        
+        // Override point for customization after application launch.
+        self.window!.backgroundColor = UIColor.whiteColor()
+        
+        self.window!.rootViewController = SignInViewController()
+        self.window!.makeKeyAndVisible()
         
         return true
     }

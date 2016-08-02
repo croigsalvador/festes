@@ -19,12 +19,10 @@ class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if self.newtworkProvider.currentUser() != nil {
-            self.newtworkProvider.updateLoggedUserLocation()
             self.presentViewController(MapViewController(), animated: true, completion: nil)
         }
         
     }
-    
     
     @IBAction func signInButtonAction(sender: UIButton) {
         

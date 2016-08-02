@@ -4,11 +4,12 @@
 target 'Festes' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-   pod 'Firebase/Core'
+    pod 'Firebase/Core'
     pod 'Firebase/Auth'
-	pod 'Firebase/Database'
+    pod 'Firebase/Database'
     pod 'FBSDKLoginKit'
     pod 'TwitterKit'
+    pod 'Typhoon'
 
 
   # Pods for Festes
