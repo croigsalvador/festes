@@ -20,6 +20,7 @@ class MapViewController: UIViewController, GetCurrentLocationDelegate {
         super.viewDidLoad()
         self.getUserLocation.delegate = self;
         self.getUserLocation.startLocatingUser()
+        self.newtworkProvider.findAllUsers()
     }
 
     func locationUpdatedWithError() {

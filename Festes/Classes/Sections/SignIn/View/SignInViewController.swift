@@ -30,6 +30,14 @@ class SignInViewController: UIViewController {
             newtworkProvider.createUserWithEmailAndPassword(email, password: password, completion: { (user, error) in
                 if user != nil {
                     self.presentViewController(MapViewController(), animated: true, completion: nil)
+                } else {
+                    self.newtworkProvider.loginUserWithEmailAndPassword(email, password: password, completion: { (user, error) in
+                        if user != nil {
+                            self.presentViewController(MapViewController(), animated: true, completion: nil)
+                        } else {
+                            print(error)
+                        }
+                    })
                 }
             })
         }

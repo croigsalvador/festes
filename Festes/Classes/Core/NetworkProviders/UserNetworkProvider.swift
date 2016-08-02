@@ -17,10 +17,10 @@ class UserNetworkProvider: NSObject {
     
     func createUserWithEmailAndPassword(email : String, password : String ,  completion: (user : User?, error : NSError?) -> Void) {
         FIRAuth.auth()?.createUserWithEmail(email, password: password) { (user, error) in
-                if let error = error {
-                    completion(user: nil, error: error)
-                    return
-                }
+            if let error = error {
+                completion(user: nil, error: error)
+                return
+            }
             
             let myUser : User = User(userId: user!.uid, email: email, password: password)
             completion(user: myUser, error: nil)
@@ -42,15 +42,23 @@ class UserNetworkProvider: NSObject {
     
     func currentUser() -> User? {
         let firUser = FIRAuth.auth()?.currentUser;
-        return User(userId: firUser!.uid, email : firUser!.email!, password : "" )
+        if firUser != nil {
+            return User(userId: firUser!.uid, email : firUser!.email!, password : "" )
+        }
+        return nil
+        
     }
     
     func logOut() {
-       try! FIRAuth.auth()?.signOut()
-
+        try! FIRAuth.auth()?.signOut()
+        
     }
     func findAllUsers () {
-        
+        let users = (self.fireBaseReference.child("users").queryLimitedToFirst(100))
+        users.observeEventType(.ChildAdded, withBlock: { snapshot in
+            let latitude = snapshot.value!["latitude"] as! Double
+            print(latitude)
+        })
     }
     
     func updateLoggedUserLocation(location : CLLocation) {
